@@ -1,0 +1,1 @@
+ffmpeg -i out_1.wav -ar 8000 -ac 1 -acodec pcm_s16le -sample_fmt s16 wavlink.wav
